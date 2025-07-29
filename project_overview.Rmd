@@ -1,0 +1,81 @@
+---
+title: "BST209 Project"
+author: "Freddy Gibson"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Project Overview
+
+## Research Question
+
+[Describe your research question here]
+
+## Data Source
+
+[Describe your data source here]
+
+## Methods
+
+[Describe your planned methods here]
+
+## Expected Outcomes
+
+[Describe what you expect to find]
+
+
+   # Introduction
+   
+   This is my final project for BST209: Machine Learning in Healthcare.
+   
+   ## Data Analysis
+   
+   ```{r, eval=FALSE}
+   # Your R code goes here
+   library(tidyverse)
+   
+   # Load data
+   data <- read.csv("your_data.csv")
+   
+   # Basic summary
+   summary(data)
+   ```
+
+### Key R Markdown Features
+
+- **Headers:** Use `#` for different levels
+- **Code chunks:** Use backticks `` for R code
+- **Lists:** Use `-` or `*` for bullet points
+- **Bold:** Use `**text**`
+- **Italic:** Use `*text*`
+
+### Knitting Your Document
+
+1. **Click the "Knit" button** in RStudio
+2. **Choose output format** (HTML, PDF, Word)
+3. **Your document will be rendered** with code output and formatting
+
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
